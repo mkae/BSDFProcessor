@@ -22,6 +22,9 @@ Format | Extension
 -------|---------------------------------
 Integra Diffuse Distribution | .ddr, .ddt
 
+### Build Instructions
+``cmake -DEIGEN3_INCLUDE_DIR=/opt/local/include/eigen3 -DOSG_DIR=/opt/local -DCMAKE_CXX_FLAGS=-std=c++11 ..``
+
 ### Gallery
 #### Screenshots
 <p align="center">
