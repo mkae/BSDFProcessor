@@ -9,7 +9,7 @@
 cmake_minimum_required(VERSION 2.8.11)
 
 if(NOT LIBBSDF_DIR)
-    set(LIBBSDF_DIR ../MK-libbsdf)
+    set(LIBBSDF_DIR ../libbsdf)
     add_subdirectory(${LIBBSDF_DIR} LibbsdfBin)
 endif()
 include_directories(${LIBBSDF_DIR}/include)
